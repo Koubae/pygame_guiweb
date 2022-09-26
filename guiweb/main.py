@@ -1,4 +1,3 @@
-"This app is broken"
 import pygame as pg
 import traceback
 
