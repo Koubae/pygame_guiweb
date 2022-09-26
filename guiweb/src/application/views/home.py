@@ -24,7 +24,7 @@ class ViewHome(ViewManager):
                 return
             print("preess")
 
-        button = GuiButton("New Shape", Vector2((panel_left_size.x / 2), 50), None,
+        button = GuiButton("Button 1", Vector2((panel_left_size.x / 2), 50), None,
                            self.app, panel_left.image, panel_left, {})
         button.add_event_listener("click", action)
         # add child to panel
